@@ -1,0 +1,137 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MV Creative Space</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      #header {
+        background-color: black;
+        position: sticky;
+        top: 0;
+      }
+      #header h1 a {
+        float: left;
+        padding: 11px 0;
+        color: white;
+        text-decoration: none;
+      }
+      #header ul {
+        float: right;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .container:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #header ul li {
+        display: inline-block;
+      }
+      #header ul li a {
+        display: inline-block;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: white;
+      }
+      #header ul li a:hover {
+        background-color: white;
+        color: black;
+      }
+      #header ul li a.active {
+        background-color: white;
+        color: black;
+      }
+      #judul {
+        text-align: center;
+        color: white;
+        font-size: 150%;
+        padding-top: 10vh;
+      }
+      #konten {
+        height: 93vh;
+        background-color: grey;
+        background-position: center;
+        background-size: cover;
+      }
+      #gambar {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10vh;
+      }
+      img {
+        height: 370px;
+        width: 250px;
+        border-radius: 15px;
+      }
+      img:hover {
+        transform: translateY(-8%);
+        transition: 0.7s;
+      }
+
+      .kotak {
+        padding: 20px 20px;
+      }
+      .kotak h1 {
+        color: black;
+      }
+      .kotak p {
+        margin-top: 20px;
+      }
+      img {
+        height: 300px;
+        width: 300px;
+        border-radius: 15px;
+        margin-top: 20px;
+      }
+      div.box img:hover {
+        transform: translateY(-5%);
+        transition: 0.7s;
+      }
+      .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <h1>
+          <a href="home.html">Majalah Visual</a>
+        </h1>
+        <ul>
+          <li><a href="BTW.html" class="active">MV Creative Space</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="konten">
+      <div class="kotak">
+        <h1>MV Creative Space</h1>
+      </div>
+      <div class="box">
+        <a><img src="dz1.JPG" alt="" /></a>
+        <a><img src="member2.JPG" alt="" /></a>
+        <a><img src="member3.JPG" alt="" /></a>
+        <a><img src="member4.JPG" alt="" /></a>
+        <a><img src="member5.JPG" alt="" /></a>
+        <a><img src="member6.JPG" alt="" /></a>
+        <a><img src="member7.JPG" alt="" /></a>
+        <a><img src="member8.JPG" alt="" /></a>
+
+      </div>
+    </div>
+  </body>
+</html>

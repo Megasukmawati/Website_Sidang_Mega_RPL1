@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body{
+    background-color: grey;
+  }
+  
+.kotak{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+.you{
+justify-content: center;
+text-align: center;
+color: white;
+}
+
+.you:hover{
+  color: beige;
+}
+
+.lg1{
+    border-radius: 50%;
+    color: magenta;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .lg1:hover{
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    background-color: magenta;
+  }
+
+  .lg2{
+    border-radius: 50%;
+    color: red;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .lg2:hover{
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    background-color: red;
+  }
+
+  .lg3{
+    border-radius: 50%;
+    color: #00ff00;
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  .lg3:hover{
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    background-color: #00ff00;
+  }
